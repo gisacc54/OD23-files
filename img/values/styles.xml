@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MainElement">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginHorizontal">@dimen/horizontal_margin</item>
+        <item name="android:textSize">@dimen/text_sm</item>
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+    </style>
+    <style name="CustomButton" parent="MainElement">
+        <item name="android:background">@drawable/button_round</item>
+        <item name="iconGravity">textStart</item>
+    </style>
+    <style name="TextSm">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textSize">@dimen/text_sm</item>
+    </style>
+    <style name="TextSmP">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textSize">@dimen/text_sm</item>
+        <item name="android:textColor">@color/purple_main</item>
+    </style>
+    <style name="TextSmB">
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">@dimen/text_sm</item>
+        <item name="android:textColor">@color/purple_main</item>
+    </style>
+    <style name="TextLg">
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">@dimen/text_lg</item>
+    </style>
+    <style name="TextTitle">
+        <item name="android:fontFamily">@font/montserrat_extra_bold</item>
+        <item name="android:textSize">@dimen/text_title</item>
+        <item name="android:textColor">@color/purple_main</item>
+    </style>
+    <style name="Input" parent="MainElement">
+        <item name="android:background">@drawable/input</item>
+        <item name="android:paddingHorizontal">10dp</item>
+        <item name="android:paddingVertical">15dp</item>
+        <item name="android:drawablePadding">10dp</item>
+    </style>
+</resources>
